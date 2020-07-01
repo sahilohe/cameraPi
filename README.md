@@ -15,3 +15,6 @@ To run this code on startup, you can do :
   (python3 /home/pi/cameraPi/camera.py) 
   3. Ctrl + O to save the file
   4. Reboot and now you simply have to open the terminal and it shows "Activating Camera" and you can go on clicking photos.
+  
+  If you want more ways to run this python code at startup you check out 
+  https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/#init
