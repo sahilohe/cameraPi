@@ -8,7 +8,7 @@ Steps to get the cameraPi working
 
 To run this code on startup, you can do :
 
-  1. Open terminal and type sudo nano /etc/rc.local
-  2. Go to the down before 'exit 0' and paste python3 /home/pi/cameraPi/camera.py
+  1. Open terminal and type sudo nano .bashrc
+  2. Go to the down and paste python3 /home/pi/cameraPi/camera.py
   3. Ctrl + O to save the file
-  4. Reboot and now it a shot. Press the button and you will get a image on the Desktop
+  4. Reboot and now you simply have to open the terminal and it shows "Activating Camera" and you can go on clicking photos.
