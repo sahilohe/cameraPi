@@ -16,7 +16,7 @@ while True: # run the code forever
     camera.start_preview()#gets a preview on your screen
     if GPIO.input(10) == GPIO.HIGH : #enter your GPIO button pin number
         print("Clicking photo")
-        os.system("raspistill -o /home/pi/Desktop/image.jpg") #takes a photo and saves to Desktop
+        os.system("raspistill -o /home/pi/Desktop/image%s.jpg") #takes a photo and saves to Desktop
         sleep(2)
         camera.stop_preview()#stops the screen preview
 
