@@ -18,6 +18,7 @@ while True: # run the code forever
         print("Clicking photo")
         os.system("raspistill -o /home/pi/Desktop/image.jpg") #takes a photo and saves to Desktop
         sleep(2)
+        camera.stop_preview()#stops the screen preview
 
 GPIO.cleanup() # Clean up the GPIO
 
