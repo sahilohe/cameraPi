@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 from picamera import PiCamera
 from time import sleep
 
-
+#starts up the camera
 camera = PiCamera()#camera started
 
 
