@@ -1,3 +1,4 @@
+#imports necessary functions and files
 import os
 import RPi.GPIO as GPIO
 from picamera import PiCamera
