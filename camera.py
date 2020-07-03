@@ -22,4 +22,4 @@ while True: # run the code forever (Enjoy the camera, until you exit the code)
 	camera.stop_preview()
 
 
-GPIO.cleanup() # Clean up the GPIO
+GPIO.cleanup() # Clean up the GPIO when you exit the code
