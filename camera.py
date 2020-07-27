@@ -1,4 +1,3 @@
-#imports necessary files and functions
 import os
 import RPi.GPIO as GPIO
 from picamera import PiCamera
@@ -19,7 +18,7 @@ while True: # run the code forever (Enjoy the camera, until you exit the code)
         print("Clicking photo")
         os.system("raspistill -o /home/pi/Desktop/image%d%s.jpg") #takes a photo and saves to Desktop (you can change the destination)
         sleep(2)
-	camera.stop_preview()
+        camera.stop_preview()
 
 
 GPIO.cleanup() # Clean up the GPIO when you exit the code
