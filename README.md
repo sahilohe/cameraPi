@@ -18,3 +18,5 @@ To run this code on startup, you can do :
   
   If you want more ways to run this python code at startup you check out 
   https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/#init
+
+If there are any problem while running this code, do contact me 
