@@ -1,3 +1,5 @@
+#How to use
+
 Steps to get the cameraPi working
 
 1. Use GPIO pin number 10 (You can use any GPIO, change the number in the code)
