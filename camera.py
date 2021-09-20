@@ -4,7 +4,7 @@ from picamera import PiCamera
 from time import sleep
 
 
-camera = PiCamera()# camera started
+camera = PiCamera()# start the camera
 
 #camera.resolution = (1280, 1080) # if you don't want to use the command to capture a photo
 
